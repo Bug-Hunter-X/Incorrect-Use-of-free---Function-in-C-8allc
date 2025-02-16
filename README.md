@@ -1,0 +1,1 @@
+This repository demonstrates a common error in C programming: improperly using the `free()` function.  The `bug.c` file contains code that attempts to free memory allocated to a local integer variable on the stack, leading to undefined behavior and potentially crashes. The `bugSolution.c` file shows the corrected version, demonstrating best practices.
